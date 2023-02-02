@@ -2,67 +2,53 @@ body {
     font-family: 'Outfit', sans-serif;
     font-family: 'Signika Negative', sans-serif;
     min-height: 100vh;
+    margin: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: hsl(212, 46%, 89%);
 }
 
 h1.Sr-only {
-clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 section {
     background-color: hsl(0, 0%, 100%);
-    padding-top: 10px;
-    border-radius: 12px;
-    /* padding-bottom: 20px; */
+    padding: 1em;
+    border-radius: 0.75em;
     text-align: center;
-    height: 320px;
-    width: 220px;
-
-
+    width: 320px;
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    border-radius: 10px;
+    border-radius: 0.75em;
+    max-width: 100%;
 }
 
 h2.codehead {
-    font-size: 16px;
+    font-size: 1.7rem;
     font-weight: 700;
-    width: 180px;
-    padding-left: 20px;
-    word-spacing: 0.5px;
-
-
-}
-
-span.red {
-    word-spacing: 1px;
-    letter-spacing: 0.2px;
+    text-align: center;
 }
 
 p.codep {
-    font-size: 10px;
+    font-size: 1.2rem;
     color: hsl(220, 15%, 55%);
-    width: 160px;
-    font-weight: 700;
-    padding-left: 30px;
+    text-align: center;
 }
 
 p.bottom {
     color: hsl(220, 15%, 55%);
-    padding-right: 40px;
-    font-size: 10px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 a {
